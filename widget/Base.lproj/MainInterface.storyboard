@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AmericanTypewriter.ttc">
+            <string>AmericanTypewriter</string>
+            <string>AmericanTypewriter-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="widget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BUY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7w-rb-wes">
+                                <rect key="frame" x="16" y="16" width="49" height="27"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQT-Gj-kZO">
+                                <rect key="frame" x="16" y="107" width="58" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market Değeri" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbc-kJ-kze">
+                                <rect key="frame" x="249" y="62" width="118" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Net Kar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngN-mC-SC4">
+                                <rect key="frame" x="303" y="8" width="64" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="638,99$" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ubc-im-XLl">
+                                <rect key="frame" x="294" y="86" width="72.5" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcp-4O-562">
+                                <rect key="frame" x="16" y="59" width="60" height="27"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhH-BC-dE8">
+                                <rect key="frame" x="92" y="59" width="28" height="27"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fT-wp-iBd">
+                                <rect key="frame" x="92" y="16" width="30" height="27"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200₺" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tuu-uc-y0H">
+                                <rect key="frame" x="324" y="32" width="43" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0,08407756" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPH-r6-eqo">
+                                <rect key="frame" x="16" y="131" width="106" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iYT-qk-tAi">
+                                <rect key="frame" x="177" y="70.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkP-xK-J6A">
+                                <rect key="frame" x="321" y="122" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="Nyb-jn-pcR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="iYT-qk-tAi" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="0cT-Uu-wse"/>
+                            <constraint firstItem="xPH-r6-eqo" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="2Of-wB-jXb"/>
+                            <constraint firstItem="Ubc-im-XLl" firstAttribute="top" secondItem="bbc-kJ-kze" secondAttribute="bottom" constant="4" id="6MF-fa-QW8"/>
+                            <constraint firstItem="ngN-mC-SC4" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="8" id="7Fj-Fk-6MW"/>
+                            <constraint firstItem="S7w-rb-wes" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="7Yf-F6-IBh"/>
+                            <constraint firstItem="MQT-Gj-kZO" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="9yj-oh-Uzj"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="ngN-mC-SC4" secondAttribute="trailing" constant="8" id="BEj-9A-q7A"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="Tuu-uc-y0H" secondAttribute="trailing" constant="8" id="COo-DB-cNF"/>
+                            <constraint firstItem="QkP-xK-J6A" firstAttribute="top" secondItem="Ubc-im-XLl" secondAttribute="bottom" constant="15" id="FUi-as-yow"/>
+                            <constraint firstItem="LhH-BC-dE8" firstAttribute="top" secondItem="5fT-wp-iBd" secondAttribute="bottom" constant="16" id="Gwe-Lg-pmD"/>
+                            <constraint firstItem="S7w-rb-wes" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="16" id="LP9-jE-3NR"/>
+                            <constraint firstItem="MQT-Gj-kZO" firstAttribute="top" secondItem="Kcp-4O-562" secondAttribute="bottom" constant="21" id="N8T-Pu-SoE"/>
+                            <constraint firstItem="Kcp-4O-562" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="Suy-Q0-Q14"/>
+                            <constraint firstItem="5fT-wp-iBd" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" constant="16" id="VDV-tg-cbN"/>
+                            <constraint firstItem="5fT-wp-iBd" firstAttribute="leading" secondItem="S7w-rb-wes" secondAttribute="trailing" constant="27" id="W3V-gL-Rug"/>
+                            <constraint firstItem="iYT-qk-tAi" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="b5n-Hy-8G5"/>
+                            <constraint firstItem="LhH-BC-dE8" firstAttribute="leading" secondItem="Kcp-4O-562" secondAttribute="trailing" constant="16" id="fN0-KO-BRd"/>
+                            <constraint firstItem="Tuu-uc-y0H" firstAttribute="top" secondItem="ngN-mC-SC4" secondAttribute="bottom" constant="4" id="fbM-XW-1k9"/>
+                            <constraint firstItem="xPH-r6-eqo" firstAttribute="top" secondItem="MQT-Gj-kZO" secondAttribute="bottom" constant="4" id="gpB-dt-XOC"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="QkP-xK-J6A" secondAttribute="trailing" constant="8" id="hKS-HU-qqr"/>
+                            <constraint firstItem="Kcp-4O-562" firstAttribute="top" secondItem="S7w-rb-wes" secondAttribute="bottom" constant="16" id="lkZ-Ca-2w7"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="Ubc-im-XLl" secondAttribute="trailing" constant="8" id="nKG-dX-2VX"/>
+                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="bbc-kJ-kze" secondAttribute="trailing" constant="8" id="rVY-Ms-I0a"/>
+                            <constraint firstItem="bbc-kJ-kze" firstAttribute="top" secondItem="Tuu-uc-y0H" secondAttribute="bottom" constant="9" id="zvt-In-Bf4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="161"/>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="MQT-Gj-kZO" id="3kE-nV-eDs"/>
+                        <outlet property="buyLabel" destination="5fT-wp-iBd" id="sIT-UW-lbz"/>
+                        <outlet property="marketValue" destination="Ubc-im-XLl" id="AKX-Nb-9Sn"/>
+                        <outlet property="marketValueLabel" destination="bbc-kJ-kze" id="9EF-mh-Hl4"/>
+                        <outlet property="profit2Tl" destination="Tuu-uc-y0H" id="8Aa-zA-dlB"/>
+                        <outlet property="profitLabel" destination="ngN-mC-SC4" id="cxj-Rg-qSy"/>
+                        <outlet property="sellLabel" destination="LhH-BC-dE8" id="Yea-gk-su5"/>
+                        <outlet property="spinner" destination="iYT-qk-tAi" id="Bun-fs-PNZ"/>
+                        <outlet property="totalBitcoin" destination="xPH-r6-eqo" id="NiV-Xo-oD0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.59999999999999" y="133.13343328335833"/>
+        </scene>
+    </scenes>
+</document>
